@@ -1,0 +1,15 @@
+C:\Users\dnlsn\Documents\GitHub\trabajo-colavorativo-\calculadoraDePromedios\calculadoraDePromedios\bin\Debug\netcoreapp3.1\calculadoraDePromedios.exe
+C:\Users\dnlsn\Documents\GitHub\trabajo-colavorativo-\calculadoraDePromedios\calculadoraDePromedios\bin\Debug\netcoreapp3.1\calculadoraDePromedios.deps.json
+C:\Users\dnlsn\Documents\GitHub\trabajo-colavorativo-\calculadoraDePromedios\calculadoraDePromedios\bin\Debug\netcoreapp3.1\calculadoraDePromedios.runtimeconfig.json
+C:\Users\dnlsn\Documents\GitHub\trabajo-colavorativo-\calculadoraDePromedios\calculadoraDePromedios\bin\Debug\netcoreapp3.1\calculadoraDePromedios.runtimeconfig.dev.json
+C:\Users\dnlsn\Documents\GitHub\trabajo-colavorativo-\calculadoraDePromedios\calculadoraDePromedios\bin\Debug\netcoreapp3.1\calculadoraDePromedios.dll
+C:\Users\dnlsn\Documents\GitHub\trabajo-colavorativo-\calculadoraDePromedios\calculadoraDePromedios\bin\Debug\netcoreapp3.1\calculadoraDePromedios.pdb
+C:\Users\dnlsn\Documents\GitHub\trabajo-colavorativo-\calculadoraDePromedios\calculadoraDePromedios\obj\Debug\netcoreapp3.1\calculadoraDePromedios.csprojAssemblyReference.cache
+C:\Users\dnlsn\Documents\GitHub\trabajo-colavorativo-\calculadoraDePromedios\calculadoraDePromedios\obj\Debug\netcoreapp3.1\calculadoraDePromedios.Form1.resources
+C:\Users\dnlsn\Documents\GitHub\trabajo-colavorativo-\calculadoraDePromedios\calculadoraDePromedios\obj\Debug\netcoreapp3.1\calculadoraDePromedios.csproj.GenerateResource.cache
+C:\Users\dnlsn\Documents\GitHub\trabajo-colavorativo-\calculadoraDePromedios\calculadoraDePromedios\obj\Debug\netcoreapp3.1\calculadoraDePromedios.AssemblyInfoInputs.cache
+C:\Users\dnlsn\Documents\GitHub\trabajo-colavorativo-\calculadoraDePromedios\calculadoraDePromedios\obj\Debug\netcoreapp3.1\calculadoraDePromedios.AssemblyInfo.cs
+C:\Users\dnlsn\Documents\GitHub\trabajo-colavorativo-\calculadoraDePromedios\calculadoraDePromedios\obj\Debug\netcoreapp3.1\calculadoraDePromedios.csproj.CoreCompileInputs.cache
+C:\Users\dnlsn\Documents\GitHub\trabajo-colavorativo-\calculadoraDePromedios\calculadoraDePromedios\obj\Debug\netcoreapp3.1\calculadoraDePromedios.dll
+C:\Users\dnlsn\Documents\GitHub\trabajo-colavorativo-\calculadoraDePromedios\calculadoraDePromedios\obj\Debug\netcoreapp3.1\calculadoraDePromedios.pdb
+C:\Users\dnlsn\Documents\GitHub\trabajo-colavorativo-\calculadoraDePromedios\calculadoraDePromedios\obj\Debug\netcoreapp3.1\calculadoraDePromedios.genruntimeconfig.cache
