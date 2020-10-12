@@ -1,0 +1,10 @@
+C:\Users\William\Documents\vs2019\AppSuma\AppSuma\bin\Debug\AppSuma.exe.config
+C:\Users\William\Documents\vs2019\AppSuma\AppSuma\bin\Debug\AppSuma.exe
+C:\Users\William\Documents\vs2019\AppSuma\AppSuma\bin\Debug\AppSuma.pdb
+C:\Users\William\Documents\vs2019\AppSuma\AppSuma\obj\Debug\AppSuma.csprojAssemblyReference.cache
+C:\Users\William\Documents\vs2019\AppSuma\AppSuma\obj\Debug\AppSuma.Form1.resources
+C:\Users\William\Documents\vs2019\AppSuma\AppSuma\obj\Debug\AppSuma.Properties.Resources.resources
+C:\Users\William\Documents\vs2019\AppSuma\AppSuma\obj\Debug\AppSuma.csproj.GenerateResource.cache
+C:\Users\William\Documents\vs2019\AppSuma\AppSuma\obj\Debug\AppSuma.csproj.CoreCompileInputs.cache
+C:\Users\William\Documents\vs2019\AppSuma\AppSuma\obj\Debug\AppSuma.exe
+C:\Users\William\Documents\vs2019\AppSuma\AppSuma\obj\Debug\AppSuma.pdb
