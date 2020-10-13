@@ -47,7 +47,9 @@ namespace calculadoraDePromedios.Logica
                 return "Has aprobado";
             }
         }
-    }
+            //trabajando con c#
+    //prueba numero 2
+        }
 }
 
 

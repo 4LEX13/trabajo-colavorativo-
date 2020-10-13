@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dnlsn\\Documents\\GitHub\\trabajo-colavorativo-\\calculadoraDePromedios\\calculadoraDePromedios\\calculadoraDePromedios.csproj": {}
+    "C:\\Users\\Vladimir\\Documents\\GitHub\\trabajo-colavorativo-\\calculadoraDePromedios\\calculadoraDePromedios\\calculadoraDePromedios.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dnlsn\\Documents\\GitHub\\trabajo-colavorativo-\\calculadoraDePromedios\\calculadoraDePromedios\\calculadoraDePromedios.csproj": {
+    "C:\\Users\\Vladimir\\Documents\\GitHub\\trabajo-colavorativo-\\calculadoraDePromedios\\calculadoraDePromedios\\calculadoraDePromedios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dnlsn\\Documents\\GitHub\\trabajo-colavorativo-\\calculadoraDePromedios\\calculadoraDePromedios\\calculadoraDePromedios.csproj",
+        "projectUniqueName": "C:\\Users\\Vladimir\\Documents\\GitHub\\trabajo-colavorativo-\\calculadoraDePromedios\\calculadoraDePromedios\\calculadoraDePromedios.csproj",
         "projectName": "calculadoraDePromedios",
-        "projectPath": "C:\\Users\\dnlsn\\Documents\\GitHub\\trabajo-colavorativo-\\calculadoraDePromedios\\calculadoraDePromedios\\calculadoraDePromedios.csproj",
-        "packagesPath": "C:\\Users\\dnlsn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dnlsn\\Documents\\GitHub\\trabajo-colavorativo-\\calculadoraDePromedios\\calculadoraDePromedios\\obj\\",
+        "projectPath": "C:\\Users\\Vladimir\\Documents\\GitHub\\trabajo-colavorativo-\\calculadoraDePromedios\\calculadoraDePromedios\\calculadoraDePromedios.csproj",
+        "packagesPath": "C:\\Users\\Vladimir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vladimir\\Documents\\GitHub\\trabajo-colavorativo-\\calculadoraDePromedios\\calculadoraDePromedios\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dnlsn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Vladimir\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
