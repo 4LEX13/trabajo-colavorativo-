@@ -51,5 +51,10 @@ namespace calculadoraDePromedios
         {
 
         }
+
+        private void txtLab2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

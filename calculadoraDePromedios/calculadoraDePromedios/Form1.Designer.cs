@@ -28,21 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btncalcular = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.txtLab1 = new System.Windows.Forms.TextBox();
+            this.txtParc1 = new System.Windows.Forms.TextBox();
+            this.txtResul1 = new System.Windows.Forms.TextBox();
+            this.txtLab2 = new System.Windows.Forms.TextBox();
+            this.txtParc2 = new System.Windows.Forms.TextBox();
+            this.txtResul2 = new System.Windows.Forms.TextBox();
+            this.txtLab3 = new System.Windows.Forms.TextBox();
+            this.txtParc3 = new System.Windows.Forms.TextBox();
+            this.txtResul3 = new System.Windows.Forms.TextBox();
+            this.label = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -51,16 +51,15 @@
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // button1
+            // btncalcular
             // 
-            this.button1.Location = new System.Drawing.Point(357, 315);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(60, 26);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "calcular";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            this.button1.process=
+            this.btncalcular.Location = new System.Drawing.Point(357, 315);
+            this.btncalcular.Name = "btncalcular";
+            this.btncalcular.Size = new System.Drawing.Size(60, 26);
+            this.btncalcular.TabIndex = 0;
+            this.btncalcular.Text = "calcular";
+            this.btncalcular.UseVisualStyleBackColor = true;
+            this.btncalcular.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -78,7 +77,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(51, 15);
             this.label2.TabIndex = 3;
-            this.label2.Text = "parcial 2";
+            this.label2.Text = "Parcial 1";
             // 
             // label3
             // 
@@ -100,77 +99,78 @@
             this.label4.Text = "lab 2";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
-            // textBox1
+            // txtLab1
             // 
-            this.textBox1.Location = new System.Drawing.Point(155, 56);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 23);
-            this.textBox1.TabIndex = 6;
+            this.txtLab1.Location = new System.Drawing.Point(155, 56);
+            this.txtLab1.Name = "txtLab1";
+            this.txtLab1.Size = new System.Drawing.Size(100, 23);
+            this.txtLab1.TabIndex = 6;
             // 
-            // textBox2
+            // txtParc1
             // 
-            this.textBox2.Location = new System.Drawing.Point(155, 120);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 23);
-            this.textBox2.TabIndex = 7;
+            this.txtParc1.Location = new System.Drawing.Point(155, 120);
+            this.txtParc1.Name = "txtParc1";
+            this.txtParc1.Size = new System.Drawing.Size(100, 23);
+            this.txtParc1.TabIndex = 7;
+            this.txtParc1.TextChanged += new System.EventHandler(this.txtLab2_TextChanged);
             // 
-            // textBox3
+            // txtResul1
             // 
-            this.textBox3.Location = new System.Drawing.Point(155, 196);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 23);
-            this.textBox3.TabIndex = 8;
+            this.txtResul1.Location = new System.Drawing.Point(155, 196);
+            this.txtResul1.Name = "txtResul1";
+            this.txtResul1.Size = new System.Drawing.Size(100, 23);
+            this.txtResul1.TabIndex = 8;
             // 
-            // textBox4
+            // txtLab2
             // 
-            this.textBox4.Location = new System.Drawing.Point(367, 53);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 23);
-            this.textBox4.TabIndex = 9;
+            this.txtLab2.Location = new System.Drawing.Point(367, 53);
+            this.txtLab2.Name = "txtLab2";
+            this.txtLab2.Size = new System.Drawing.Size(100, 23);
+            this.txtLab2.TabIndex = 9;
             // 
-            // textBox5
+            // txtParc2
             // 
-            this.textBox5.Location = new System.Drawing.Point(367, 120);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 23);
-            this.textBox5.TabIndex = 10;
+            this.txtParc2.Location = new System.Drawing.Point(367, 120);
+            this.txtParc2.Name = "txtParc2";
+            this.txtParc2.Size = new System.Drawing.Size(100, 23);
+            this.txtParc2.TabIndex = 10;
             // 
-            // textBox6
+            // txtResul2
             // 
-            this.textBox6.Location = new System.Drawing.Point(367, 196);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 23);
-            this.textBox6.TabIndex = 11;
+            this.txtResul2.Location = new System.Drawing.Point(367, 196);
+            this.txtResul2.Name = "txtResul2";
+            this.txtResul2.Size = new System.Drawing.Size(100, 23);
+            this.txtResul2.TabIndex = 11;
             // 
-            // textBox7
+            // txtLab3
             // 
-            this.textBox7.Location = new System.Drawing.Point(584, 58);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 23);
-            this.textBox7.TabIndex = 12;
+            this.txtLab3.Location = new System.Drawing.Point(584, 58);
+            this.txtLab3.Name = "txtLab3";
+            this.txtLab3.Size = new System.Drawing.Size(100, 23);
+            this.txtLab3.TabIndex = 12;
             // 
-            // textBox8
+            // txtParc3
             // 
-            this.textBox8.Location = new System.Drawing.Point(584, 117);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 23);
-            this.textBox8.TabIndex = 13;
+            this.txtParc3.Location = new System.Drawing.Point(584, 117);
+            this.txtParc3.Name = "txtParc3";
+            this.txtParc3.Size = new System.Drawing.Size(100, 23);
+            this.txtParc3.TabIndex = 13;
             // 
-            // textBox9
+            // txtResul3
             // 
-            this.textBox9.Location = new System.Drawing.Point(584, 196);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(100, 23);
-            this.textBox9.TabIndex = 14;
+            this.txtResul3.Location = new System.Drawing.Point(584, 196);
+            this.txtResul3.Name = "txtResul3";
+            this.txtResul3.Size = new System.Drawing.Size(100, 23);
+            this.txtResul3.TabIndex = 14;
             // 
-            // label5
+            // label
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(310, 132);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(38, 15);
-            this.label5.TabIndex = 15;
-            this.label5.Text = "label5";
+            this.label.AutoSize = true;
+            this.label.Location = new System.Drawing.Point(310, 132);
+            this.label.Name = "label";
+            this.label.Size = new System.Drawing.Size(51, 15);
+            this.label.TabIndex = 15;
+            this.label.Text = "Parcial 2";
             // 
             // label6
             // 
@@ -212,16 +212,16 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(267, 283);
+            this.label10.Location = new System.Drawing.Point(231, 258);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(81, 15);
+            this.label10.Size = new System.Drawing.Size(87, 15);
             this.label10.TabIndex = 20;
-            this.label10.Text = "resultadoFinal";
+            this.label10.Text = "Resultado Final";
             this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // textBox10
             // 
-            this.textBox10.Location = new System.Drawing.Point(367, 275);
+            this.textBox10.Location = new System.Drawing.Point(332, 250);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(100, 23);
             this.textBox10.TabIndex = 21;
@@ -231,27 +231,27 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(940, 533);
+            this.Controls.Add(this.btncalcular);
             this.Controls.Add(this.textBox10);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label);
+            this.Controls.Add(this.txtResul3);
+            this.Controls.Add(this.txtParc3);
+            this.Controls.Add(this.txtLab3);
+            this.Controls.Add(this.txtResul2);
+            this.Controls.Add(this.txtParc2);
+            this.Controls.Add(this.txtLab2);
+            this.Controls.Add(this.txtResul1);
+            this.Controls.Add(this.txtParc1);
+            this.Controls.Add(this.txtLab1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "calculador de promedio";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -262,21 +262,21 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btncalcular;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtLab1;
+        private System.Windows.Forms.TextBox txtParc1;
+        private System.Windows.Forms.TextBox txtResul1;
+        private System.Windows.Forms.TextBox txtLab2;
+        private System.Windows.Forms.TextBox txtParc2;
+        private System.Windows.Forms.TextBox txtResul2;
+        private System.Windows.Forms.TextBox txtLab3;
+        private System.Windows.Forms.TextBox txtParc3;
+        private System.Windows.Forms.TextBox txtResul3;
+        private System.Windows.Forms.Label label;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
