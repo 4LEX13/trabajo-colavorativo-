@@ -48,7 +48,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.txtFinal = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btncalcular
@@ -219,12 +219,12 @@
             this.label10.Text = "Resultado Final";
             this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
-            // textBox10
+            // txtFinal
             // 
-            this.textBox10.Location = new System.Drawing.Point(332, 250);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(100, 23);
-            this.textBox10.TabIndex = 21;
+            this.txtFinal.Location = new System.Drawing.Point(332, 250);
+            this.txtFinal.Name = "txtFinal";
+            this.txtFinal.Size = new System.Drawing.Size(100, 23);
+            this.txtFinal.TabIndex = 21;
             // 
             // Form1
             // 
@@ -232,7 +232,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(940, 533);
             this.Controls.Add(this.btncalcular);
-            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.txtFinal);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -282,7 +282,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox txtFinal;
     }
 }
 
