@@ -7,7 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using calculadoraDePromedios.Dominio;
+using calculadoraDePromedios.Logica
 namespace calculadoraDePromedios
 {
     public partial class Form1 : Form
@@ -49,6 +50,7 @@ namespace calculadoraDePromedios
 
         private void button1_Click(object sender, EventArgs e)
         {
+         
 
         }
 
