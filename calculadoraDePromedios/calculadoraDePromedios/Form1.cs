@@ -83,7 +83,21 @@ namespace calculadoraDePromedios
 
             double ResulF = Clscal.ResultadoFinal(Resul1, Resul2, Resul3);
             txtFinal.Text = ResulF.ToString();
-        }
+
+ 
+                if (ResulF >= 0 && ResulF < 6)
+                {
+                MessageBox.Show("El alumno se encuentra:"+" Reprobado");
+
+  
+                }
+                else
+                {
+                    MessageBox.Show("El alumno se encuentra:" + " Aprobado");
+                }
+
+
+            }
 
         private void txtLab2_TextChanged(object sender, EventArgs e)
         {

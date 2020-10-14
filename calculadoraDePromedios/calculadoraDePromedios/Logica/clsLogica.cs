@@ -34,22 +34,7 @@ namespace calculadoraDePromedios.Logica
             return Promedio;
         }
 
-        public String Resultado(double Promedio) {
-
-        {
-            if (Promedio >= 0 && Promedio < 6)
-            {
-                return "Has reprobado";
-
-            }
-            else
-            {
-                return "Has aprobado";
-            }
-        }
-            //trabajando con c#
-    //prueba numero 2
-        }
+        
 }
 
 
