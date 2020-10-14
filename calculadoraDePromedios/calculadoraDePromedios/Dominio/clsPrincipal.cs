@@ -6,7 +6,7 @@ namespace calculadoraDePromedios.Dominio
 {
     class clsPrincipal
     {
-        private String lab1, lab2, lab3;
+         private String lab1, lab2, lab3;
         private String parcial1, parcial2, parcial3;
         private double resultado1, resultado2, resultado3;
         private double resultadoFinal;
